@@ -9,9 +9,6 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    nav: [
-      { text: 'Accueil', link: '/' }
-    ],
     sidebar: [
       {
         text: 'Sommaire',

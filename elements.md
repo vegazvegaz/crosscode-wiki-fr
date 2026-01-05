@@ -4,21 +4,21 @@
 ---
 
 ## 🔥 Chaleur
-![Icône Chaleur](./assets/chaleur.webp)
+![Icône Chaleur](./assets/icones/chaleur.webp)
 > **Localisation :** Mine de Bergen (B4).
 
 ---
 
 ## ❄️ Froid
-![Icône Froid](./assets/froid.webp)
+![Icône Froid](./assets/icones/froid.webp)
 > **Localisation :** S'obtient après les épreuves de l'Automne.
 
 ---
 
 ## ⚡️ Foudre
-![Icône Foudre](./assets/foudre.webp)
+![Icône Foudre](./assets/icones/foudre.webp)
 
 ---
 
 ## 🌊 Onde
-![Icône Onde](./assets/onde.webp)
+![Icône Onde](./assets/icones/onde.webp)
