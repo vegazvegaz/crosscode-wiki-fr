@@ -1,0 +1,8 @@
+:root {
+  --vp-c-brand: #0071e3; /* Bleu Apple */
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+}
+
+.dark {
+  --vp-c-bg: #000000; /* Noir pur Apple */
+}
