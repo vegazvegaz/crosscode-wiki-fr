@@ -19,11 +19,11 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build with VitePress
-        run: npm run docs:build
+        run: npx vitepress build . # Le point signifie "ici à la racine"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
   deploy:
     needs: build
     runs-on: ubuntu-latest
