@@ -2,36 +2,25 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "CrossCode Wiki FR",
-  description: "L'archive complète du CrossWorlds",
+  description: "Wiki CrossCode Français",
+  base: '/crosscode-wiki-fr/',
   lang: 'fr-FR',
   themeConfig: {
-    // 🔍 Activation de la barre de recherche locale
     search: {
       provider: 'local'
     },
-    // 🌙 Configuration du menu
     nav: [
-      { text: 'Accueil', link: '/' },
-      { text: 'Débuter', link: '/combat' }
+      { text: 'Accueil', link: '/' }
     ],
     sidebar: [
       {
-        text: 'Guide du Chercheur',
+        text: 'Sommaire',
         items: [
-          { text: 'Système de Combat', link: '/combat' },
-          { text: 'Les Éléments', link: '/elements' },
-          { text: 'Équipements', link: '/equipement' }
-        ]
-      },
-      {
-        text: 'Missions',
-        items: [
-          { text: 'Quêtes de Bergen', link: '/quetes' }
+          { text: 'Combat', link: '/combat' },
+          { text: 'Éléments', link: '/elements' },
+          { text: 'Quêtes', link: '/quetes' }
         ]
       }
-    ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/ton-pseudo/crosscode-wiki-fr' }
     ]
   }
 })
